@@ -1,14 +1,18 @@
 "use client";
 
+import { useModal } from "@/components/Modal/content";
 
 type Props = { url: string; ornate?: boolean; className?: string };
 
 export default function WatchTrailer({ url, ornate = true, className = "" }: Props) {
   const { open } = useModal();
+
   return (
     <button
       type="button"
-      onClick={() => open({ type: "video", src: url, title: "Blood Maiden Trailer" })}
+      onClick={() =>
+        open({ type: "video", src: url, title: "Blood Maiden Trailer" })
+      }
       className={`cta ${ornate ? "cta--ornate" : "cta--simple"} ${className}`}
       aria-label="Watch the trailer"
     >
@@ -16,7 +20,3 @@ export default function WatchTrailer({ url, ornate = true, className = "" }: Pro
     </button>
   );
 }
-function useModal(): { open: any; } {
-  throw new Error("Function not implemented.");
-}
-
