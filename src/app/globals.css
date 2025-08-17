@@ -25,11 +25,16 @@ html,body{ height:100%; }
   --fs-h2:clamp(1.5rem, 1.2rem + 1vw, 1.9rem);
   --fs-h3:clamp(1.125rem, 1rem + 0.6vw, 1.5rem);
   --lh:1.55;
-
  --font-heading: 'Crimson Text', Georgia, serif; 
  --font-body: 'Crimson Pro', Georgia, serif;
   --font-body:    var(--font-crimson-pro);
   --font-body: 'Crimson Pro', Georgia, serif;
+    --gold: rgba(232,224,201,1);
+  --gold-weak: rgba(232,224,201,.85);
+  --gold-border: rgba(232,224,201,.25);
+  --ink: #0b0b0b;
+  --ink-2: #121212;
+  --red: #d31612;
 }
 
 @media (min-width:1200px){

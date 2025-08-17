@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700;800&family=Crimson+Text:wght@400;700&display=swap');
 
-:root{
-  --gold: rgba(232,224,201,1);
-  --gold-weak: rgba(232,224,201,.85);
-  --gold-border: rgba(232,224,201,.25);
-  --ink: #0b0b0b;
-  --ink-2: #121212;
-  --red: #d31612;
-}
 
 .lang-en {
   font-family: "Crimson Pro", "Crimson Text", serif;

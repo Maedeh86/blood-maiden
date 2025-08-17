@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import s from "./styles.module.css";
 
+
 const DOWNLOAD_URL = "https://futuregames.itch.io/blood-maiden";
 
 type NavItem =
