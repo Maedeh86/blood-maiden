@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
 
         <div className="g7-footer__ratings">
           <Image src="/icons/pegi.png" alt="PEGI 18" width={50} height={50} />
-          <Image src="/icons/fear.png" alt="Fear" width={50} height={50} />
+          <Image src="/icons/Fear.png" alt="Fear" width={50} height={50} />
           <Image src="/icons/badL.png" alt="Bad Language" width={50} height={50} />
           <Image src="/icons/violence.png" alt="Violence" width={50} height={50} />
           <Image src="/icons/pc.png" alt="Available on PC" width={50} height={50} />
