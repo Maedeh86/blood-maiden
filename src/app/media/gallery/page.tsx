@@ -5,36 +5,36 @@ export const metadata = { title: "Gallery • Blood Maiden" };
 // LEVEL 1 
 const level1: MediaItem[] = [
   { src: "/media/Graveyard.png", title: "SANCTUARY HOLLOW", ratio: "1/1" },
-  { src: "/gallery/Graveyard-1.png", title: "BLACKVEIL CEMETERY", ratio: "5/3" },
-  { src: "/gallery/Coffin.png", title: "THE WAITING CASKET", ratio: "3/3" },
+  { src: "/Gallery/Graveyard-1.png", title: "BLACKVEIL CEMETERY", ratio: "5/3" },
+  { src: "/Gallery/Coffin.png", title: "THE WAITING CASKET", ratio: "3/3" },
 ];
 
 // LEVEL 2
 const level2: MediaItem[] = [
-  { src: "/gallery/Dark-forest-7.png", title: "THE MOSSBOUND VEIN", ratio: "14/10" },
-  { src: "/gallery/Dark-forest-6.png", title: "MOONFEN HOLLOW", ratio: "2/3" },
-  { src: "/gallery/Dark-forest-5.png", title: "LANTERNBEACH GROVE", ratio: "2/3" },
+  { src: "/Gallery/Dark-forest-7.png", title: "THE MOSSBOUND VEIN", ratio: "14/10" },
+  { src: "/Gallery/Dark-forest-6.png", title: "MOONFEN HOLLOW", ratio: "2/3" },
+  { src: "/Gallery/Dark-forest-5.png", title: "LANTERNBEACH GROVE", ratio: "2/3" },
 ];
 
 // LEVEL 3
 const level3: MediaItem[] = [
-  { src: "/gallery/Misty.city.png", title: "THE VEILED HOUR SQUARE", ratio: "16/9" },
-  { src: "/gallery/Castle.png", title: "CROWNREACH WHARF", ratio: "3/4" },
-  { src: "/gallery/Gothic.png", title: "FOGSPIRE ROAD", ratio: "16/9" },
+  { src: "/Gallery/Misty.city.png", title: "THE VEILED HOUR SQUARE", ratio: "16/9" },
+  { src: "/Gallery/Castle.png", title: "CROWNREACH WHARF", ratio: "3/4" },
+  { src: "/Gallery/Gothic.png", title: "FOGSPIRE ROAD", ratio: "16/9" },
 ];
 
 // LEVEL 4 
 const level4: MediaItem[] = [
-  { src: "/gallery/Golden-hall.png", title: "HALL OF THE BLOOD CROWN", ratio: "16/9" },
-  { src: "/gallery/Lost-Steps.png", title: "SANCTUM OF THE LOST STEPS", ratio: "3/4" },
-  { src: "/gallery/Hall.stairs.png", title: "SANCTUM OF ECHOES", ratio: "16/9" },
+  { src: "/Gallery/Golden-hall.png", title: "HALL OF THE BLOOD CROWN", ratio: "16/9" },
+  { src: "/Gallery/Lost-Steps.png", title: "SANCTUM OF THE LOST STEPS", ratio: "3/4" },
+  { src: "/Gallery/Hall.stairs.png", title: "SANCTUM OF ECHOES", ratio: "16/9" },
 ];
 
 // ENVIRONMENTAL ASSETS 
 const assets: MediaItem[] = [
-  { src: "/gallery/Save.point.png", title: "THE LUMINOUS WELL • SAFE POINT", ratio: "8/5" },
-  { src: "/gallery/Tombstone.png", title: "OBSIDIAN CROSS", ratio: "5/6" },
-  { src: "/gallery/Lamppost.png", title: "LAMP OF THE VEIL", ratio: "5/6" },
+  { src: "/Gallery/Save.point.png", title: "THE LUMINOUS WELL • SAFE POINT", ratio: "8/5" },
+  { src: "/Gallery/Tombstone.png", title: "OBSIDIAN CROSS", ratio: "5/6" },
+  { src: "/Gallery/Lamppost.png", title: "LAMP OF THE VEIL", ratio: "5/6" },
 ];
 
 //  MONSTERS CODEX 

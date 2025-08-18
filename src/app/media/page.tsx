@@ -88,7 +88,7 @@ export default function Page() {
 
             <article className="level-card">
               <div className="level-imgWrap">
-                <Image src="/media/forest-1.png" alt="Level 2" fill className="level-img" />
+                <Image src="/media/Forest-1.png" alt="Level 2" fill className="level-img" />
                 <div className="level-overlay">
                   <div className="level-title">LEVEL 2.</div>
                   <a href="/media/gallery#level2" className="level-btn">
