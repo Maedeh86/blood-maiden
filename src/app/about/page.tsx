@@ -77,19 +77,19 @@ export default function AboutPage() {
             {[
               {
                 name: "Henrietta",
-                img: "/characters/henrietta.png",
+                img: "/characters/Henrietta.png",
                 desc:
                   "Murdered by her father in a ritual of treachery… She returns as a spectral force, hunting the tyrant who stole her life.",
               },
               {
                 name: "Queen Elizabeth",
-                img: "/characters/queen.E.png",
+                img: "/characters/Queen.E.png",
                 desc:
                   "By 1735, Elizabeth extended her life through dark sciences to preserve her ruthless son, Prince Henry, from taking the throne.",
               },
               {
                 name: "Prince Henry",
-                img: "/characters/prince.Henry.png",
+                img: "/characters/Prince.Henry.png",
                 desc:
                   "Twisted by ambition and rejection, Henry embraced occult alchemy. His reign forged an empire of sorrow and fear.",
               },

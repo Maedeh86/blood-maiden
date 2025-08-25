@@ -622,7 +622,6 @@ img{ max-width:100%; height:auto; display:block; }
 }
 .media-plaque{
   --panel-inset: 14% 18% 20% 18%; 
-
   position: relative;
   margin: 39px auto 40px;
   width: clamp(260px, 26vw, 360px);
@@ -745,7 +744,7 @@ img{ max-width:100%; height:auto; display:block; }
   align-items: center; 
   gap: 10px;
   padding: 18px;
-  background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,0) 55%);
+  background: linear-gradient(to top, rgba(0,0,0,.85) 0%, rgba(0,0,0,0) 55%);
   text-align: center;
 }
 
@@ -764,10 +763,10 @@ img{ max-width:100%; height:auto; display:block; }
   align-items: center;
   justify-content: center ;
   min-height: 44px ;
-  padding: 8px 16px ;
+  padding: 12px 24px ;
   font-family: var(--font-crimson-pro), Georgia, serif ;
   font-weight: 700 ;
-  font-size: 14px ;
+  font-size: 16px ;
   letter-spacing: .8px ;
   text-transform: uppercase;
   color: #fff ;
@@ -797,9 +796,9 @@ img{ max-width:100%; height:auto; display:block; }
 
 .media-link{
   position: relative;
-  height: 99px;          
-  padding: 0 90px 0 80px;      
-  border: 1px solid rgba(201,166,70,.45);
+  height: 108px;          
+  padding: 0 100px 0 80px;      
+  border: 2px solid rgba(201,166,70,.45);
   border-radius: 4px;
   background: transparent;
   display: flex;
@@ -808,9 +807,9 @@ img{ max-width:100%; height:auto; display:block; }
   color: #e8e0c9;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: .10em;
-  font-weight: 700;
-  font-size: 18px;
+  letter-spacing: .12em;
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .media-link:hover {
@@ -823,10 +822,10 @@ img{ max-width:100%; height:auto; display:block; }
 }
 .media-link span:last-child {
   position: absolute;
-  right: 16px;
+  right: 24px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 24px;
+  font-size: 28px;
 }
 .arrow {
   font-size:7rem;
